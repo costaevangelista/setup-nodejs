@@ -1,0 +1,31 @@
+{
+  "name": "setup-nodejs",
+  "version": "1.0.0",
+  "description": "projeto de demonstração",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/costaevangelista/setup-nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "jest",
+    "demo"
+  ],
+  "author": "Abel Costa <costaevangelista@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/costaevangelista/setup-nodejs/issues"
+  },
+  "homepage": "https://github.com/costaevangelista/setup-nodejs#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
