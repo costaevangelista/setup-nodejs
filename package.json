@@ -4,6 +4,7 @@
   "description": "projeto de demonstração",
   "main": "index.js",
   "scripts": {
+    "commit": "cz",
     "test": "jest"
   },
   "repository": {
@@ -23,9 +24,18 @@
   },
   "homepage": "https://github.com/costaevangelista/setup-nodejs#readme",
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "cz-conventional-changelog": "^3.0.1",
+    "husky": "^7.0.4",
     "jest": "^27.5.1"
   },
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
