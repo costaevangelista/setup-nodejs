@@ -4,11 +4,11 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  const { sayHello } = require("./services/sayHelloWorld");
+    const { sayHello } = require("./services/sayHelloWorld");
 
-  res.send(sayHello());
+    res.send(sayHello());
 });
 
 module.exports = {
-  app,
+    app,
 };
