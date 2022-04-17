@@ -1,4 +1,4 @@
-FROM node:16-slim as BUILDER 
+FROM node:16-slim as BUILDER
 LABEL maintainer="Abel Costa"
 
 WORKDIR /usr/src/app
